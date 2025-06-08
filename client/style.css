@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+#paymentsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#paymentsTable th, #paymentsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#paymentsTable th {
+    background-color: #f2f2f2;
+}
